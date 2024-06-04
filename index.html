@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="confirm">
+        <h1 style="padding-top:20px">Confirmed</h1>
+    <p>Thank you for purchasing from my store<p>
+    <p>Your total is <span class="amount"></span> <p>
+        <div class="ok" onclick="ok()">Ok</div>
+    </div>
+        <!-- Navbar -->
+        <nav>
+            <div class="logo"><a href="#">Watch Store</a></div>
+            <ul id="menuItems">
+                <!-- <li><a href="#">Home</a></li>
+                <li><a href="#aboutUs">About Us</a></li> -->
+                <div class="cart">
+                    <li class="icon"><i class="fa-solid fa-cart-shopping"></i></li>
+                    <p class="quantity">0</p>
+                </div>
+                <div class="wish">
+                    <li class="icon"><i class="fa-solid fa-heart"></i>
+                    <p class="wishQuantity">0</p>
+                </div>
+                
+            </ul>
+            
+        </nav>
+        <header>
+            <div class="content">
+                <ul class="category">
+                    <li class="casio">Casio</li>
+                    
+                    <li class="omega">Omega</li>
+                    
+                    <li class="fossil">Fossil</li>
+                </ul>
+                <div class="images">
+                    <div class="watches casio" >
+                        <h2>Casio Watch</h2>
+                        <p>50$</p>
+                        <img src="images/ca1.png" alt="" class="casio">
+                    </div>
+
+                    <div class="watches omega" style="display: none;">
+                        <h2>Omega Watch</h2>
+                        <p>40$</p>
+                        <img src="images/om1.png" alt="" class="omega" >
+                    </div>
+
+                    <div class="watches fossil" style="display: none;">
+                        <h2>Fossil Watch</h2>
+                        <p style="margin-top: 20px;">60$</p>
+                        <img src="images/fo1.png" alt="" class="fossil" style=" height: 650px;">
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+        <div class="card">
+            <h1>Card</h1>
+            <ul class="cardList"></ul>
+            <div class="total">$0</div>
+            <div class="checkout">
+                <div class="submit">submit</div>
+                <div class="close">Close</div>
+            </div>
+        </div>
+
+        <div class="favourite">
+            <h1>Wish List</h1>
+            <ul class="wishList"></ul>
+            <div class="checkout">
+                <div class="closeW">Close</div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="featureItem">
+                <img src="images/high quality.jpeg" alt="">
+                <p>We have the best watches quality and certified</p>
+            </div>
+            <div class="featureItem">
+                <img src="images/fast delivery.png" alt="">
+                <p>We have the best and saftest shipping truck</p>
+            </div>
+            <div class="featureItem">
+                <img src="images/best price.png" alt="">
+                <p>We have the best prices and discounts</p>
+            </div>
+        </div>
+
+        <div class="categories">
+            <div class="categories-header">
+            <h1>Our Categories</h1>
+        </div>
+        <div class="Item-header">
+            <h2>Casio</h2>
+            <div class="items casio">
+                
+            </div>
+        </div>
+        
+        <div class="Item-header">
+            <h2>Omega</h2>
+            <div class="items omega">
+                
+            </div>
+        </div>
+
+        <div class="Item-header">
+            <h2>Fossil</h2>
+            <div class="items fossil">
+                
+            </div>
+        </div>
+        </div>
+
+        <div class="scrollUp">
+            <i class="fa-regular fa-circle-up"></i>
+        </div>
+        
+        <footer>
+            <h1>Contact us</h1>
+            
+            <div>
+                <div class="contact">
+                    <i class="fa-brands fa-facebook"></i>
+                    <p>Watch Store</p>
+                </div>
+                <div class="contact">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>01129770707</p>
+                </div>
+                <div class="contact">
+                    <i class="fa-brands fa-google"></i>
+                    <p>watchstore@gmail.com</p>
+                </div>
+            </div>
+            <marquee class="copyright" behavior="" direction="right" scrollamount="15">
+                This website is made by &copy <span>Mohamed Ehab</marquee>
+        </footer>
+    <script src="main.js"></script>
+</body>
+</html>
